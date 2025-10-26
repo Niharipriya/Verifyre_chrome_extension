@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "VerifyFyer — Instant Fact Likelihood",
+  "version": "0.1.0",
+  "description": "Estimate how likely a statement is true (0–100%) using Chrome’s on-device Gemini Nano.",
+  "permissions": [
+    "aiLanguageModelOriginTrial",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "VerifyFyer"
+  },
+  "icons": {
+    "16": "icons/icons/16.png",
+    "48": "icons/icons/48.png",
+    "128": "icons/icons/128.png"
+  },
+  "trial_tokens": [
+    "AltMUd2MyvefNwtcbInQI5xhC8DSY6d3Hq662GpXZYWLXTrZ2/5QKQJC9Cq3+gii+LSgJEIpCrZndQg6kcqOcQAAAAB7eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZG9jZW9hZmNwZ2JiaXBiamVubW5tcG5uZmhnamhmbGEiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDB9"
+  ]
+}
